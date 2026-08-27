@@ -67,7 +67,7 @@ export default function Home() {
             <p className="text-gray-400 mb-3">Built a real-time pedestrian counting system with Python, OpenCV, and SORT for multi-object tracking. Used bounding boxes and persistent tracking IDs to accurately count unique pedestrians in live video streams, preventing duplicate counts and enabling real-time footfall analytics.</p>
             <p className="text-sm text-gray-500 mb-3">Tech: FastAPI, YOLO-V8/V10, OpenCV, SORT, TensorFlow</p>
             <div className="flex gap-3">
-              <a href="#" className="text-blue-400 hover:underline">GitHub: https://github.com/YashMahindroo18/Crowd_Sense</a>
+              <a href="https://github.com/YashMahindroo18/Crowd_Sense" className="text-blue-400 hover:underline">GitHub Repository</a>
               <a href="#" className="text-blue-400 hover:underline">Live Demo</a>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Home() {
       <section id="contact" className="max-w-4xl mx-auto px-6 py-16 border-t border-gray-800">
         <h3 className="text-3xl font-bold mb-6">Get in Touch</h3>
         <div className="flex gap-6">
-          <a href="yashmahindroo10@gmail.com" className="hover:text-gray-400">Email</a>
+          <a href="mailto:yashmahindroo10@gmail.com" className="hover:text-gray-400">Email</a>
           <a href="https://github.com/YashMahindroo18" className="hover:text-gray-400">GitHub</a>
           <a href="https://www.linkedin.com/in/yash-mahindroo/" className="hover:text-gray-400">LinkedIn</a>
         </div>
