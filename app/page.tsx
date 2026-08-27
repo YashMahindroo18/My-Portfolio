@@ -30,8 +30,8 @@ export default function Home() {
       <section id="about" className="max-w-4xl mx-auto px-6 py-16 border-t border-gray-800">
         <h3 className="text-3xl font-bold mb-6">About</h3>
         <p className="text-gray-400 leading-relaxed">
-          [Hi, I'm Yash, a Computer Science student passionate about building intelligent, user-focused software. I develop full-stack applications using React, Node.js, JavaScript, and Java, and build AI solutions with Python, computer vision, retrieval-augmented generation (RAG), and agentic AI workflows. I enjoy turning ideas into practical projects and continuously expanding my software engineering and problem-solving skills.
-]
+          Hi, I'm Yash, a Computer Science student passionate about building intelligent, user-focused software. I develop full-stack applications using React, Node.js, JavaScript, and Java, and build AI solutions with Python, computer vision, retrieval-augmented generation (RAG), and agentic AI workflows. I enjoy turning ideas into practical projects and continuously expanding my software engineering and problem-solving skills.
+
         </p>
       </section>
 
@@ -63,8 +63,8 @@ export default function Home() {
         <h3 className="text-3xl font-bold mb-6">Projects</h3>
         <div className="space-y-6">
           <div className="border border-gray-800 p-6 rounded hover:border-gray-600">
-            <h4 className="text-xl font-semibold mb-2">[CrowdSense - Real-time Pedestrian Counting System]</h4>
-            <p className="text-gray-400 mb-3">[Built a real-time pedestrian counting system with Python, OpenCV, and SORT for multi-object tracking. Used bounding boxes and persistent tracking IDs to accurately count unique pedestrians in live video streams, preventing duplicate counts and enabling real-time footfall analytics.]</p>
+            <h4 className="text-xl font-semibold mb-2">CrowdSense - Real-time Pedestrian Counting System</h4>
+            <p className="text-gray-400 mb-3">Built a real-time pedestrian counting system with Python, OpenCV, and SORT for multi-object tracking. Used bounding boxes and persistent tracking IDs to accurately count unique pedestrians in live video streams, preventing duplicate counts and enabling real-time footfall analytics.</p>
             <p className="text-sm text-gray-500 mb-3">Tech: FastAPI, YOLO-V8/V10, OpenCV, SORT, TensorFlow</p>
             <div className="flex gap-3">
               <a href="#" className="text-blue-400 hover:underline">GitHub: https://github.com/YashMahindroo18/Crowd_Sense</a>
