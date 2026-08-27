@@ -73,6 +73,16 @@ export default function Home() {
         <a href="https://github.com/YashMahindroo18/Crowd_Sense" className="text-blue-400 hover:underline">GitHub Repository</a>
       </div>
     </div>
+    {/* PromptLab */}
+<div className="border border-gray-800 p-6 rounded hover:border-gray-600">
+  <h4 className="text-xl font-semibold mb-2">PromptLab - AI Prompt Optimizer</h4>
+  <p className="text-gray-400 mb-3">An intelligent prompt refinement tool that transforms rough, unpolished prompts into detailed, optimized versions. Uses a chain-of-LLMs approach to iteratively improve prompt quality, structure, and specificity for better AI model outputs.</p>
+  <p className="text-sm text-gray-500 mb-3">Tech: Next.js, TypeScript, Tailwind CSS, Gemini 3.5 Flash, Hugging Face, LLM Chaining</p>
+  <div className="flex gap-3">
+    <a href="https://promptlab-olive.vercel.app/" className="text-blue-400 hover:underline">Live Demo</a>
+    <a href="https://github.com/YashMahindroo18/promptlab" className="text-blue-400 hover:underline">GitHub</a>
+  </div>
+</div>
 
     {/* Blockchain Research */}
     <div className="border border-blue-900 bg-blue-950 bg-opacity-20 p-6 rounded hover:border-blue-700">
