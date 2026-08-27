@@ -72,37 +72,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        {/* Projects */}
-<section id="projects" className="max-w-4xl mx-auto px-6 py-16 border-t border-gray-800">
-  <h3 className="text-3xl font-bold mb-6">Projects & Research</h3>
-  <div className="space-y-6">
-    
-    {/* CrowdSense */}
-    <div className="border border-gray-800 p-6 rounded hover:border-gray-600">
-      <h4 className="text-xl font-semibold mb-2">CrowdSense - Real-time Pedestrian Detection & Counting</h4>
-      <p className="text-gray-400 mb-3">Computer vision system that detects and tracks pedestrians in real-time video streams. Uses YOLO-v8 for object detection and SORT algorithm for multi-object tracking with persistent IDs, enabling accurate pedestrian counting across detection lines.</p>
-      <p className="text-sm text-gray-500 mb-3">Tech: Python, YOLOv8, OpenCV, SORT, FastAPI, TensorFlow</p>
-      <div className="flex gap-3">
-        <a href="https://github.com/YashMahindroo18/Crowd_Sense" className="text-blue-400 hover:underline">GitHub Repository</a>
-      </div>
-    </div>
-
-    {/* Blockchain Research */}
-    <div className="border border-blue-900 bg-blue-950 bg-opacity-20 p-6 rounded hover:border-blue-700">
-      <div className="flex items-center gap-2 mb-2">
-        <span className="text-xs px-2 py-1 bg-blue-900 text-blue-300 rounded">Research in Progress</span>
-        <h4 className="text-xl font-semibold">Privacy-Preserving Healthcare Data Sharing on Blockchain</h4>
-      </div>
-      <p className="text-gray-400 mb-3">Designed a privacy-focused system for secure healthcare provider collaboration using blockchain, addressing metadata leakage vulnerabilities. Implemented EIP-5564 stealth addressing with elliptic curve cryptography to create anonymous, unlinkable authorization logs. Each access generates one-time addresses impossible to link to patient or provider, with time-based key rotation for forward secrecy.</p>
-      <p className="text-sm text-gray-500 mb-3">Tech: Solidity, Node.js, Ethereum, ECC Cryptography, AES-256, Hardhat, Sepolia Testnet</p>
-      <p className="text-sm text-gray-400 mb-3">Status: Privacy research work - designing solutions to prevent transaction pattern analysis attacks on healthcare blockchains. Tested on Ethereum Sepolia testnet.</p>
-      <div className="flex gap-3">
-        <a href="https://github.com/YashMahindroo18/Major-Project" className="text-blue-400 hover:underline">GitHub Repository</a>
-      </div>
-    </div>
-
-  </div>
-</section>
+        
       </section>
 
       {/* Contact */}
